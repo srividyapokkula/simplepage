@@ -1,0 +1,152 @@
+/* * {
+    padding: 0;
+    margin: 0;
+ } */
+nav {
+    position: relative;
+    width: 100%;
+    top: 0;
+    display: flex;
+    background: rgb(217, 143, 114);
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    /* margin-right: 500px; */
+}
+
+nav ul li {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 40px;
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#lines {
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 30px;
+
+}
+
+.box1 {
+    height: 700px;
+    width: 100%;
+    margin-top: -70px;
+    background:linear-gradient(rgb(236, 236, 116),rgb(208, 139, 150));
+}
+
+.head {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 40px;
+}
+
+.para {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    font-size: 20px;
+
+}
+
+#imgbox {
+    height: 630px;
+    width: 547px;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+button {
+    position: absolute;
+    top: 580px;
+    left: 200px;
+    height: 30px;
+    width: 140px;
+    border: 1px solid rgb(172, 76, 76);
+    text-align: center;
+    line-height: 30px;
+    background: rgb(172, 76, 76);
+    color: white;
+
+}
+
+.box2 {
+    height: 100vh;
+    width: 98%;
+    top: 200px;
+    /* border: 1px solid black; */
+    background:linear-gradient(rgb(241, 241, 148),rgb(223, 171, 179));
+    
+}
+
+#img1 {
+    position: relative;
+    top: -190px;
+    left: 100px;
+    height: 220px;
+    width: 220px;
+
+}
+
+#img2 {
+    position: relative;
+    top: 50px;
+    left: -120px;
+    height: 220px;
+    width: 220px;
+
+}
+
+#img3 {
+    position: relative;
+    top: 50px;
+    left: -100px;
+    height: 460px;
+    width: 250px;
+}
+
+.box3 {
+    margin-top: -300px;
+    margin-left: 700px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    background: rgb(214, 93, 93);
+}
+
+.one {
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.two {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.three {
+    margin-left: 40px;
+    margin-top: -30px;
+
+}
